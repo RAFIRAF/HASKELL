@@ -1,0 +1,1 @@
+nwd x y = maximum $ filter (\yy -> y `mod` yy == 0) (filter (\xx -> x `mod` xx == 0) (if x > y then [1..x] else [1..y]))

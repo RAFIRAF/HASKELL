@@ -1,0 +1,25 @@
+intercalate
+sequence
+when
+mapM
+mapM_
+forever
+forM
+getContents
+lines, unlines
+interact
+openFile
+hClose
+hGetContents
+getChar
+randoms
+random
+hPutStr
+readFile
+openTempFile
+randomR
+getStdGen
+pack
+(type) Word8
+unpack
+doesFileExist

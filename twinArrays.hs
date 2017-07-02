@@ -1,0 +1,1 @@
+twinArrays :: [Int] -> [Int] -> Int

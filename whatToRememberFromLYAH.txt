@@ -1,0 +1,25 @@
+Typeclasses: Eq, Ord, Show, Read, Functor
+Type: [] (list type)
+Functor typeclass implementation
+data Either
+
+
+
+type declaration
+type signature
+list instance of the Functor typeclass implementation
+Functor typeclass implementation
+Maybe type instance of the Functor typeclass implementation
+MyTree type instance of the Functor typeclass implementation
+Either type instance of the Functor typeclass implementation
+Map type instance of the Functor typeclass implementation
+IO type instance of the Functor typeclass implementation
+((->) r) type instance of the Functor typeclass implementation
+id
+Functor laws
+fmap :: (Functor f) => (a -> b) -> f a -> f b
+(<*>) :: (Applicative f) => f (a -> b) -> f a -> f b  
+(\x -> Just (x+1)) 1
+ghc-pkg list
+gcd
+(==) :: ...
